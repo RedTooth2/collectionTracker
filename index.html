@@ -16,30 +16,29 @@
       <label>Booking Year <input type="number" id="bookingYear" /></label>
       <label>DR # <input type="text" id="drNumber" /></label>
       <label>DR AMT <input type="number" id="drAmt" step="any" /></label>
-      <label>Service Amt <input type="number" id="serviceAmt" step="any" /></label>
+      <label>Service Amt <input type="number" id="serviceAmt" step="any" value="0" /></label>
       <label>DR Date <input type="date" id="drDate" /></label>
       <label>Delivery Date <input type="date" id="deliveryDate" /></label>
       <label>Company Name <input type="text" id="company" /></label>
       <label>PO# <input type="text" id="poNumber" /></label>
       <label>Agent <input type="text" id="agent" /></label>
-      <label>Days <input type="number" id="days" /></label>
+      <label>Days <input type="number" id="days" value="0" /></label>
       <label>Terms <input type="text" id="terms" /></label>
       <label>Date for Collection <input type="date" id="collectionDate" /></label>
-      <label>Payment Details <input type="text" id="paymentDetails" /></label>
+      <label>Payment Details <input type="text" id="paymentDetails" value="N/A"/></label>
       <label>PR/CG <input type="text" id="prcg" /></label>
-      <label>Collected <input type="text" id="collected" /></label>
-      <label>Payment Amt <input type="number" id="paymentAmt" step="any" /></label>
+      <label>Collected <input type="text" id="collected" value="Not yet collected"/></label>
+      <label>Payment Amt <input type="number" id="paymentAmt" step="any" value="0"/></label>
       <label>EWT <input type="number" id="ewt" step="any" /></label>
       <label>Balance <input type="number" id="balance" step="any" /></label>
       <label>Date Collected <input type="text" id="dataCollected" value="Not yet collected" /></label>
-      <label># of Days <input type="number" id="numDays" /></label>
-      <label>Remarks <input type="text" id="remarks" /></label>
-      <label>Month Collected <input type="text" id="monthCollected" /></label>
-      <label>Commission Status <input type="text" id="commissionStatus" /></label>
-      <label>Commission Releasing <input type="text" id="commissionReleasing" /></label>
+      <label># of Days <input type="number" id="numDays" value="0" /></label>
+      <label>Remarks <input type="text" id="remarks" value="N/A" /></label>
+      <label>Month Collected <input type="text" id="monthCollected" value="Not yet collected" /></label>
+      <label>Commission Status <input type="text" id="commissionStatus" value="N/A" /></label>
+      <label>Commission Releasing <input type="text" id="commissionReleasing" value="N/A" /></label>
     </div>
     <button type="submit">Add Entry</button>
-    <button type="button" id="clearData">Clear All</button>
   </form>
 
   <div class="table-container">
