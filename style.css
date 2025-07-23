@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1300px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  font-size: 13px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+.overdue {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.paid {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.overdue {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.mark-paid-btn {
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

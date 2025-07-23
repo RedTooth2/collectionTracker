@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Collection Tracker Minimal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Collection Tracker</h1>
+
+  <form id="dataForm">
+    <div class="grid">
+      <label>Month <input type="text" id="month" /></label>
+      <label>Booking Date <input type="date" id="bookingDate" /></label>
+      <label>Booking Year <input type="number" id="bookingYear" /></label>
+      <label>DR # <input type="text" id="drNumber" /></label>
+      <label>DR AMT <input type="number" id="drAmt" step="any" /></label>
+      <label>Service Amt <input type="number" id="serviceAmt" step="any" /></label>
+      <label>DR Date <input type="date" id="drDate" /></label>
+      <label>Delivery Date <input type="date" id="deliveryDate" /></label>
+      <label>Company Name <input type="text" id="company" /></label>
+      <label>PO# <input type="text" id="poNumber" /></label>
+      <label>Agent <input type="text" id="agent" /></label>
+      <label>Days <input type="number" id="days" /></label>
+      <label>Terms <input type="text" id="terms" /></label>
+      <label>Date for Collection <input type="date" id="collectionDate" /></label>
+      <label>Payment Details <input type="text" id="paymentDetails" /></label>
+      <label>PR/CG <input type="text" id="prcg" /></label>
+      <label>Collected <input type="text" id="collected" /></label>
+      <label>Payment Amt <input type="number" id="paymentAmt" step="any" /></label>
+      <label>EWT <input type="number" id="ewt" step="any" /></label>
+      <label>Balance <input type="number" id="balance" step="any" /></label>
+      <label>Date Collected <input type="text" id="dataCollected" value="Not yet collected" /></label>
+      <label># of Days <input type="number" id="numDays" /></label>
+      <label>Remarks <input type="text" id="remarks" /></label>
+      <label>Month Collected <input type="text" id="monthCollected" /></label>
+      <label>Commission Status <input type="text" id="commissionStatus" /></label>
+      <label>Commission Releasing <input type="text" id="commissionReleasing" /></label>
+    </div>
+    <button type="submit">Add Entry</button>
+    <button type="button" id="clearData">Clear All</button>
+  </form>
+
+  <div class="table-container">
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Booking Date</th>
+          <th>Booking Year</th>
+          <th>DR #</th>
+          <th>DR AMT</th>
+          <th>Service AMT</th>
+          <th>DR Date</th>
+          <th>Delivery Date</th>
+          <th>Company</th>
+          <th>PO#</th>
+          <th>Agent</th>
+          <th>Days</th>
+          <th>Terms</th>
+          <th>Date for Collection</th>
+          <th>Payment Details</th>
+          <th>PR/CG</th>
+          <th>Collected</th>
+          <th>Payment Amt</th>
+          <th>EWT</th>
+          <th>Balance</th>
+          <th>Date Collected</th>
+          <th># of Days</th>
+          <th>Remarks</th>
+          <th>Month Collected</th>
+          <th>Commission Status</th>
+          <th>Commission Releasing</th>
+          <th>Status</th>
+	  <th>Mark as Paid</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
